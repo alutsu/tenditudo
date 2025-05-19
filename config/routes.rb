@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :catalogs
   resources :products
   resources :categories
   devise_for :users
