@@ -11,5 +11,6 @@ class Avo::Resources::Catalog < Avo::BaseResource
     field :description, as: :textarea
     field :visible, as: :boolean
     field :user, as: :belongs_to
+    field :categories, as: :has_many
   end
 end
